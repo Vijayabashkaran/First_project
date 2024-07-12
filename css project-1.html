@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Project-websitr creation</title>
+        <title>Examic</title>
+        <link rel="icon" type="image/x-icon" href="images.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
             nav{
-                text-decoration: none;font-family: calibri;
                 background-color: black;
-            }
-            .navigation a{
-                color:white;
-                font-size: 35px;
-                font-weight: normal;
-                font-family: calibri;
-            }
-            .ali_left{
+                font-family: claibri;
+                /* font-size: large;
+                font-weight: 600;
+                color: whitesmoke; */
+                text-decoration: none;
+               }
+            *{
+                text-decoration: none;
+             }
+             .list_alignment{
                 display: flex;
                 font-family: calibri;
-            }
-            #navid{
-                display: flex; justify-content: space-between;align-items: center;
-            }
-            *{
-                text-decoration: none;;
-            }
+                font-size: medium;
+            } 
             li{
                 list-style: none; display: inline-block;
             }
             li a{
-                color: white; font-size: 25px; font-weight: bold; margin-right: 25px; 
+                color: white; font-size: medium;  margin-right: 25px; 
+            }
+            #navigation{
+                display: flex; justify-content: space-between;align-items: center;
+            }
+            .nav_style a{
+                text-align: justify;
+                margin-left: 40px;
+                color: whitesmoke;
+                font-size: x-large;
+                font-weight: bolder;
+                
             }
             pre{
                 align-items: center;
@@ -63,11 +71,13 @@
                 padding-left: 400px;
                 font-size: xx-large;
                 display: inline-block;
+                font-size: 100px;
             
             } 
             .centre1{
                 margin-right: 20px; 
                 text-align: center;
+                
             }
 
             .black{
@@ -97,7 +107,7 @@
                 padding-top: 10px;
                 margin-top: 20px;  */
                  display: inline;
-                 margin-right: 100px;
+                 margin-right: 200px;
             }
             .bbb{
                 font-size: x-large;
@@ -173,25 +183,72 @@
            #moving{
                 margin-right: 30px;
            }
+           .about_alignment{
+                width: 283px;
+            }
+            .footer_alignment{
+                display: flex;
+                margin-left: 50px;
+            }
+            .address_alignment{
+                width: 290px;
+                margin-left: 40px;
+            }
+            .foot_color{
+                background-color: black;
+                color: whitesmoke;
+            }
+            /* hr{
+                color: white;
+            } */
+            .iconic_color {
+                word-spacing: 20px;
+                color: white;
+            }
+            .iconic_color i{
+                color: white;
+            }
+            .line_color{
+                color: white;
+            }
+            .final_alignment{
+                display: flex;
+                padding-left: 10px;
+                justify-content: space-between;
+            }
+            li:hover{
+                    background-color: #2f0d58;
+                    border-radius: 10px;
+                    /* width: 50px; */
+                
+            }
+            .object{
+                font-size: 50px;
+            }
+            .ppp{
+                text-align: justify;
+            }
+
           
         
         </style>
     </head>
     <body>
         <nav>
-            <div id="navid">
-            <div class="navigation"><a href="#" >EXAMIC</a></div>
-            <ul class="ali_left">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Bolg</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div id="navigation">
+                    <div class="nav_style"><a href="#" >EXAMIC</a></div>
+                <ul class="list_alignment">
+                    <li><a href=>Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/css%20project-1.html">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Bolg</a></li>
+                    <li><a href="http://127.0.0.1:5500/css_prj1_pg2.html">Contact</a></li>
+                </ul>
+            </div> 
         </nav>
     </div>
-    <img src="prjimg.png" alt="">
-        <b><h2 style="color: rgb(32, 8, 116);">Who we are</h2><br><br></b>
+    <img src="prjimg.png" alt="" style="background-color: #1b0b33;">
+        <b><h2 style="color: rgb(32, 8, 116);" class="object">Who we are</h2><br><br></b>
       
         <h1 style="color: rgb(13, 13, 143);">About Examic</h1>
        
@@ -206,8 +263,8 @@
 
  <div> <img src="prjimg2.png" alt="" id="image2"></div>
 
- <b> <pre class="ppp"> Gain actionable insights on skills and 
-knowledge</pre></b>
+ <b> <pre class="ppp">  Gain actionable insights on skills and 
+  knowledge</pre></b>
 <pre class="ppp">  Testportal is your private insight engine about candidates’ skills and 
     knowledge. Create online assessments for candidates to get an additional 
     signal before the job interview. Use online assessments to discover training 
@@ -232,7 +289,7 @@ knowledge</pre></b>
 <div>
     <iframe width="1196" height="397" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1196&amp;height=397&amp;hl=en&amp;q=No.2963,%20Ground%20Floor,%20Brigade%20Point,%20Gokulam%20Main%20Rd,%20Gokulam%202nd%20Stage,%20Vani%20Vilas%20Mohalla,%20Mysuru,%20Karnataka%20570002%20+(Brigade%20Point,%20Mysore)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.easybooking.eu/'>Hotelsoftware kleine Hotels</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=830a06b1fd9eee30529dd0eea45557cf8f6d155f'></script>
 </div>
-<footer class="ccc">
+<!-- <footer class="ccc">
     <div class="footer">
    <div class="ddd">
                 <h2 class="alingment1">ABOUT US</h2>
@@ -268,9 +325,49 @@ knowledge</pre></b>
 </footer>
 <hr>
    
-    <!-- <div>
+     <div>
         <hr>
     </div> -->
+    <footer class="foot_color">
+        <div class="footer_alignment">
+            <div class="about_alignment">
+            <h2>ABOUT US</h2>
+            <p>At Assessment Portal, we are dedicated to providing top-quality digital assessments for learners and professionals. We strive to enhance learning outcomes through innovative technology and user-friendly design. Join us in transforming the future of education.</p>
+            </div>
+            <div class="address_alignment">
+            <h2>OUR ADDRESS</h2>
+            <P>#2963, Ground Floor, Brigade Point, Gokulam Main Road,VV Mohalla, Karnataka.</P>
+            </div>
+            <div>
+            <h2>FOLLOW US</h2>
+            <P>Stay in touch width us</P>
+            <div class="iconic_color">
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </div>
+            </div>
+        </div>
+        <!-- <div ><hr style="border: 1px solid rgb(242, 239, 239);">
+        </div> -->
+        <br><br><br><br><br>
+        <hr>
+        <div class="final_alignment">
+        <p>© 2024 All rights reserved by examic</p>
+        <p >EXAMIC - EdTech Pvt Limited</p>
+        </div>
+        
+
+    </footer>
     
     </body>
 </html>

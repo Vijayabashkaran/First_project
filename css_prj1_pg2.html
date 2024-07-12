@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>contact page</title>
+        <title>Examic</title>
+        <link rel="icon" type="image/x-icon" href="images.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
             nav{
                 background-color: black;
@@ -36,27 +38,90 @@
                 font-weight: bolder;
                 
             }
-            #tex_align{
+            .tex_align{
                 text-align: center;
                 margin-left: 50px;
             }
-            #form_flex{
+            .form_flex{
                 float: right;
                 width: 300px;
-                padding-left: 200px;
-                margin-left: 100px;
+                height: 50px;
+                /* padding-left: 200px;
+                margin-left: 100px; */
+                margin-right: 400px;
             }
-            #button_width{
+            .form_flex input{
+                width: 670px;
+                height: 35px;
+            }
+            .button_width{
                 width: 70px;
                 height: 30px;
             }
-            #button_width:hover{
+            .button_width:hover{
                 color: cyan;
                 
             }
-            #map_margin{
+            .map_margin{
                 margin-left: 50px;
                 box-shadow: 20px black;
+            }
+            .add_align{
+                width: 190px;
+            }
+            .enquiry_left{
+                float:right;
+                margin-right: 850px;
+            }
+            .icon_width i{
+                margin-right: 20px;
+                display: inline-block;
+                justify-content: space-between;
+                word-spacing: 30px;
+            }
+            .icon_width i{
+                    
+                font-size:xx-large ;
+                color: black;
+            }
+            .about_alignment{
+                width: 283px;
+            }
+            .footer_alignment{
+                display: flex;
+                margin-left: 50px;
+            }
+            .address_alignment{
+                width: 290px;
+                margin-left: 40px;
+            }
+            .foot_color{
+                background-color: black;
+                color: whitesmoke;
+            }
+            /* hr{
+                color: white;
+            } */
+            .iconic_color {
+                word-spacing: 20px;
+                color: white;
+            }
+            .iconic_color i{
+                color: white;
+            }
+            .line_color{
+                color: white;
+            }
+            .final_alignment{
+                display: flex;
+                padding-left: 10px;
+                justify-content: space-between;
+            }
+            li:hover{
+                    background-color: #2f0d58;
+                    border-radius: 10px;
+                    /* width: 50px; */
+                
             }
 
 
@@ -68,21 +133,21 @@
             <div id="navigation">
                     <div class="nav_style"><a href="#" >EXAMIC</a></div>
                 <ul class="list_alignment">
-                    <li><a href="C:\Project_one\css project-1.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/css%20project-1.html">About</a></li>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Bolg</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="http://127.0.0.1:5500/css_prj1_pg2.html">Contact</a></li>
                 </ul>
             </div> 
         </nav>
         <h2 style="text-align: center;">Contact</h2>
         <h3 style="text-align: center;">Get in touch with us</h3>
        
-      <div id="form_flex">
+      <div class="form_flex">
       <form action="" >
         <label for="text">First name*</label><br>
-        <input type="text" name="First name" ><br><br>
+        <input type="text" name="First name" width="200px"><br><br>
         <label for="email">email*</label><br>
         <input type="email" name="yremail"><br><br>
         <label for="pnone no">Phone no*</label><br>
@@ -92,14 +157,80 @@
         <label for="message">Message*</label><br>
         <input type="text" name="Message"><br><br>
         <h3>Field marked with * are requried</h3>
-        <button id="button_width">Submit</button>
+        <button class="button_width">Submit</button>
       </form>
       </div>
-      <div id="map_margin">
+      <div class="map_margin">
         <iframe width="471" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=471&amp;height=400&amp;hl=en&amp;q=%20Bengaluru+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://dissertationschreibenlassen.com/dissertation-medizin/'>Dissertation in Medizin</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=955bab0d99f1a9c087f373740f06e0b7ff9a6b43'></script>
     </div><br>
+    <div class="enquiry_left">
+        <h4>Want to Write?</h4>
+        <b>for sale:</b>Sales@examic.com
+        <h4>for general enquiry:</h4>
+          contact@examic.com
+    </div>
     <h3>Our Address</h3>
-    <p>#2963, Ground Floor, Brigade Point, Gokulam Main Road,VV Mohalla, Mysuru – 570002. Karnataka, India,</p>
+    <p class="add_align">#2963, Ground Floor, Brigade Point, Gokulam Main Road,VV Mohalla, Mysuru – 570002. Karnataka, India,</p>
+    <br><br><br>
+    <div class="icon_width">
+    <h2>Follow us </h2>
+    <a href="">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="">
+        <i class="fa-brands fa-square-instagram"></i>
+    </a>
+    <a href="">
+        <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a href=""></a>
+        
+    </a>
+    </div><br><br><br><br>
+    <footer class="foot_color">
+        <div class="footer_alignment">
+            <div class="about_alignment">
+            <h2>ABOUT US</h2>
+            <p>At Assessment Portal, we are dedicated to providing top-quality digital assessments for learners and professionals. We strive to enhance learning outcomes through innovative technology and user-friendly design. Join us in transforming the future of education.</p>
+            </div>
+            <div class="address_alignment">
+            <h2>OUR ADDRESS</h2>
+            <P>#2963, Ground Floor, Brigade Point, Gokulam Main Road,VV Mohalla, Karnataka.</P>
+            </div>
+            <div>
+            <h2>FOLLOW US</h2>
+            <P>Stay in touch width us</P>
+            <div class="iconic_color">
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </div>
+            </div>
+        </div>
+        <!-- <div ><hr style="border: 1px solid rgb(242, 239, 239);">
+        </div> -->
+        <br><br><br><br><br>
+        <hr style="color: grey;">
+        
+        <div class="final_alignment">
+        <p>© 2024 All rights reserved by examic</p>
+        <p >EXAMIC - EdTech Pvt Limited</p>
+        </div>
+        
+
+    </footer>
 
        
     </body>
